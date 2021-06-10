@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(gallery/bg5.jpg);
+}
+
+header{
+    background-color: #1e1e1e;
+    color: white;
+    height: 10vh;
+    background-size: 10px;
+}
+
+
+.logo{
+    color: white;
+    margin: 70px;
+    line-height:70px;
+    font-size: 32px;
+}
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+li{
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+
+.heading a{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    line-height: 10px;
+    margin-right: 25px;
+    background: transparent;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.container{
+    background-color: white;
+    border-radius: 6px;
+    flex-direction: column;
+    height: auto;
+    padding: 25px 25px 16px 25px;
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    font-size: 12px;
+}
+
+.main input{
+    margin: 7px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gainsboro;
+}
+
+div .signup{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div .note{
+    font-size: 14px;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #ddd;
+    padding: 5px 25px;
+    outline: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.contact-form-text:focus{
+    box-shadow: 0 0 3px 1px;
+}
+
+.contact-form-btn{
+    left: 100px;
+    margin: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 5px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover{
+    background: rgb(137, 162, 235);
+}
+
+.acc{
+    text-align: center;
+    cursor: pointer;
+}
+
+.acc p{
+    font-size: 14px;
+}
+
+.acc a{
+    font-size: 14px;
+}
+
+footer{
+    padding: 3px;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 3.6%;
+}
